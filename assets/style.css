@@ -1,0 +1,51 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", serif;
+}
+body{
+    background-image: url(../assets/images/body_background.jpg);
+    background-size: cover;
+}
+.navbar{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.156);
+}
+.navbar .container{
+    width: 1200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+.nav-navbar{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.navbar .nav-link{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: green;
+    background-image: url(../assets/images/hover_active.jpg);
+    background-repeat: no-repeat;
+    background-position: center 70px;
+    transition: 0.2s;
+}
+.navbar .nav-link:hover{
+    background-position: center bottom;
+}
+.navbar .home{
+    background-color: rgba(0, 0, 0, 0.515);
+    color: white;
+    background-clip: border-box;
+    border: 1px solid rgb(25, 186, 87);
+}
+.navbar .nav-item:hover{
+    background-origin: padding-box;
+    background-position: center bottom;
+}
